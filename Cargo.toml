@@ -1,0 +1,11 @@
+[package]
+name = "little-walk-invitation"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+little-walk-dog = { git = "https://github.com/wangjun861205/little-walk-dog" }
+little-walk-auth = { git = "https://github.com/wangjun861205/little-walk-auth" }
+chrono = "0.4.31"
